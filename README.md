@@ -8,12 +8,12 @@ The main code can be found in the analysis directory of this repository. The sub
 HRCCA can be accessed through several interactive web browsers, including:
 
 HCA Data Portal: 
-CELLxGENE: https://cellxgene.cziscience.com/collections/48c15b0c-6039-4e0f-9668-b6b3c0b830ad
 <a href="https://cellxgene.cziscience.com/collections/48c15b0c-6039-4e0f-9668-b6b3c0b830ad" target="_blank">CELLxGENE</a>.
 Broad Single Cell Portal:
-Cell Annotation Platform: https://celltype.info/project/947
+<a href="https://celltype.info/project/947" target="_blank">Cell Annotation Platform</a>.
+
 References
-The HRCA paper: Li et al., bioRxiv 2023.
+
 
 # Questions
 If you have any questions, please submit an issue to this repository.
