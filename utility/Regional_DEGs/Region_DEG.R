@@ -12,10 +12,7 @@ library(tidyr)
 #adata <- AddMetaData(object = adata, metadata = metadata)
 setwd("/dfs3b/ruic20_lab/jianms1/Single_cell/scRNA_snRNA_1-7-2025/snRNA_NoFetal_clean/annotation/Regional_DEGs/Majorclass")
 
-obj=readRDS("/dfs3b/ruic20_lab/jianms1/Single_cell/scRNA_snRNA_1-7-2025/snRNA_NoFetal_clean/annotation/snRNA_clean_all_rawcounts_final.rds")
-
-# Filter to keep only cells with percent.mt less than or equal to 5
-adata <- subset(obj, subset = percent.mt <= 5)
+adata=readRDS("/dfs3b/ruic20_lab/jianms1/Single_cell/scRNA_snRNA_1-7-2025/snRNA_NoFetal_clean/annotation/snRNA_clean_all_rawcounts_final.rds")
 
 # Verify the filtering by checking the range of the new object
 summary(adata$percent.mt)
